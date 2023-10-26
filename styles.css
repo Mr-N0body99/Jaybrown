@@ -19,7 +19,7 @@ body{
       .header{
       display: flex;
       background-color: rgba(221, 223, 247, 1);
-      height:70px;
+      height:90px;
       flex-direction: row;
       justify-content: space-between;
       align-items: center;  
@@ -41,6 +41,124 @@ body{
       align-items:center;
       justify-content: center;
     }
+
+      .container{
+     display: flex;
+     flex-direction: column;
+     width: 70%;
+     height: 100%;
+     background: url( sample-reel.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: fixed;
+     top:0;
+    bottom: 0;
+    left:0;
+    color: black;
+    font-size: 30px;
+    overflow: hidden;
+    transition: 0.75s;
+    z-index: 110;
+    }
+    
+   #menu{
+     overflow: hidden;
+     width:0;
+     transition: 0.75s;
+     
+   }
+    .items{
+      margin-top: 55px;
+      height: 90px;
+      align-items:center;
+      text-shadow:5px 5px 3px white;
+      justify-content:center;
+      font-family: cursive;
+      animation: animate 4s ease forwards;
+    }
+    @keyframes animate {
+     0% {transform: translateX(-55%) }
+     100%{transform: translateX(35%)}
+    }
+    
+        .items2{
+      height: 90px;
+      align-items:center;
+      justify-content: center;
+      text-shadow:5px 5px 3px white;
+      justify-content:center;
+      font-family: cursive;
+      animation: animate 4s ease forwards;
+    }
+    @keyframes animate {
+     0% {transform: translateX(-55%) }
+     100%{transform: translateX(35%)}
+    }
+    
+        .items3{
+      height: 90px;
+      align-items:center;
+      text-shadow:5px 5px 3px white;
+      justify-content:center;
+      font-family: cursive;
+      animation: animate 4s ease forwards;
+    }
+    @keyframes animate {
+     0% {transform: translateX(-55%) }
+     100%{transform: translateX(35%)}
+    }
+    
+        .items4{
+      height: 90px;
+      align-items:center;
+      text-shadow:5px 5px 3px white;
+      justify-content:center;
+      font-family: cursive;
+      animation: animate 4s ease forwards;
+    }
+    @keyframes animate {
+     0% {transform: translateX(-55%) }
+     100%{transform: translateX(35%)}
+    }
+    
+  .items5{
+      height: 90px;
+      align-items:center;
+      text-shadow:5px 5px 3px white;
+      justify-content:center;
+      font-family: cursive;
+      animation: animate 4s ease forwards;
+    }
+    @keyframes animate {
+     0% {transform: translateX(-55%) }
+     100%{transform: translateX(35%)}
+    }
+    
+
+    .icon{
+      position: absolute;
+      top: 25px;
+      left: 25px;
+      height: 30px;
+      font-size: 40px;
+      overflow: hidden;
+      height: 35px;
+      width: 35px;
+      font-size: 25px;
+    }
+    
+a{
+  text-decoration: none;
+  color: black;
+}
+ #main{
+   overflow: hidden;
+ transition: margin-left 0.75s;
+  }
+  
+.slide{
+  transition: 0.75s;
+}
 
     .middle{
       display: flex;
@@ -74,7 +192,7 @@ body{
         bottom: -35px;
         background-color: gray;
         font-family: arial;
-       border-radius: 3px;
+        border-radius: 3px;
         padding-top:4px;
         padding-bottom:4px;
         padding-left:8px;
@@ -86,8 +204,7 @@ body{
         transition: opacity 2s;
          }
          
-   .butt:hover .tooltip,
-   .left:hover .tooltip,
+   
    .profile-container:hover .tooltip{
      opacity: 1;
    } 
